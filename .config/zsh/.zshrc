@@ -13,7 +13,11 @@ alias ls='ls --color'
 
 # Completion
 autoload -Uz compinit; compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 source /home/tareef/.local/share/zsh-dracula-syntax-highlighting/zsh-syntax-highlighting.sh
 source /home/tareef/.local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/tareef/.local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Plugins
+
